@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<style>
+    body{
+        background-color: rgba(75, 206, 108, 0);
+    }
+</style>
+</head>
+<body onload="getedit()">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <div class="container p-1 my-1 border">
+          <h1>Booking page</h1> 
+          <marquee width="60%" direction="left" height="100px">
+            This is a sample scrolling text that has scrolls texts to left.
+            </marquee>
+    
+      </div>
+    <br>
+    <div align="center">
+        <table border="1" cellpadding="5">
+            
+            <tr>
+                   <th>event_id</th>
+                    <th>event_name</th>
+                    <th>description</th>
+                    <th>location</th>
+                    <th>date</th>
+                    <th>time</th>
+                    <th>venue</th>
+                    <th>concept</th>
+                    <th>company</th>
+                    <th>prize</th>
+            </tr>
+            <tbody id="order"></tbody>
+            <!-- ${id}
+            <c:forEach var="book" items="${bookList}">
+                <tr>
+                    <td><c:out value="${book.event_id}" /></td>
+                    <td><c:out value="${book.event_name}" /></td>
+                    <td><c:out value="${book.description}" /></td>
+                    <td><c:out value="${book.location}" /></td>
+                    <td><c:out value="${book.date}" /></td>
+                    <td><c:out value="${book.time}" /></td>
+                    <td><c:out value="${book.venue}" /></td>
+                    <td><c:out value="${book.concept}" /></td>
+                    <td><c:out value="${book.company}" /></td>
+                    <td><c:out value="${book.prize}" /></td>
+                </tr>
+            </c:forEach> -->
+        </table>
+    </div>
+<!--      
+    <div>
+        <table id="tableid" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>event_id</th>
+                    <th>event_name</th>
+                    <th>description</th>
+                    <th>location</th>
+                    <th>date</th>
+                    <th>time</th>
+                    <th>venue</th>
+                    <th>concept</th>
+                    <th>company</th>
+                </tr>
+            </thead>
+        </table>
+    </div> -->
+<br>
+<br>
+<center>
+    
+       No  of tickets : <input type="text" name="ticket">
+     
+       <button  type="submit" onclick="pay()">payment</button></a>
+   
+</center>
+<br>
+<br>
+
+<img src="images/payment.jpg" class="float-start rounded-circle" alt="Cinque Terre">
+<img src="images/tomjerry.jpg" class="float-end rounded-circle" alt="Cinque Terre">
+</body></html>
